@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MNO"
+    android:background="@drawable/abcbackground3">
+    <ImageView
+        android:id="@+id/e13"
+        android:layout_width="450dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="40dp"
+        android:background="@drawable/m"/>
+    <ImageView
+        android:id="@+id/e14"
+        android:layout_width="450dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="40dp"
+        android:layout_below="@id/e13"
+        android:background="@drawable/n"/>
+    <ImageView
+        android:id="@+id/e15"
+        android:layout_width="450dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="40dp"
+        android:layout_below="@id/e14"
+        android:background="@drawable/o"/>
+    <Button
+        android:id="@+id/b16"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="next ->"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_below="@id/e15"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:background="#F3F781"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/b17"
+        android:background="@drawable/menu"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/e15"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+
+        />
+
+</RelativeLayout>

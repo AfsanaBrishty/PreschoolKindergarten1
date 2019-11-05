@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toyo.preschoolkindergarten1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DaysWeek2"></activity>
+        <activity android:name=".DaysWeek" />
+        <activity android:name=".JohnyPoem" />
+        <activity android:name=".HumptyPoem" />
+        <activity android:name=".Count6" />
+        <activity android:name=".Count5" />
+        <activity android:name=".Count4" />
+        <activity android:name=".Count3" />
+        <activity android:name=".Quiz1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondPage" />
+        <activity android:name=".Abc" />
+        <activity android:name=".DEF" />
+        <activity android:name=".GHI" />
+        <activity android:name=".JKL" />
+        <activity android:name=".MNO" />
+        <activity android:name=".PQR" />
+        <activity android:name=".STU" />
+        <activity android:name=".VWX" />
+        <activity android:name=".YZ" />
+        <activity android:name=".MonthsYear" />
+        <activity android:name=".MonthsYear2" />
+        <activity android:name=".Count1" />
+        <activity android:name=".Count2" />
+        <activity android:name=".MyRhymes" />
+        <activity android:name=".Twinklepoem" />
+        <activity android:name=".BaabaaPoem" />
+    </application>
+
+</manifest>

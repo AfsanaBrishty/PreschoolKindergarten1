@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Count2"
+    android:background="@drawable/weekpg2">
+
+
+
+    />
+    <Button
+        android:id="@+id/b55"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/menu"/>
+
+    <Button
+        android:id="@+id/b56"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/prev2"/>
+</RelativeLayout>
